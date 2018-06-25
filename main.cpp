@@ -106,6 +106,7 @@ int main(void) {
 
 
 	loaddata data(p1);
+	data.insert_data(); // insert data from data.csv file
 
 	ANFIS fis1(p1, data.X,data.Y);
 
